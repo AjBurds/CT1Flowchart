@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T22:58:03.563Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Config/96.2.8981.82" version="21.1.1" etag="TN7TZZjG7ZcbBXWPxLou" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-05T23:20:46.300Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Config/96.2.8981.82" etag="oGXWQ6heqBcUMfO1dZrq" version="21.1.1" type="github">
   <diagram name="Page-1" id="FkdXeDvfEsBKhogp4X-z">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XAGFkQ6AK7H2ISQv4rUd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XAGFkQ6AK7H2ISQv4rUd-1" target="XAGFkQ6AK7H2ISQv4rUd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAGFkQ6AK7H2ISQv4rUd-1" value="Class Baseball Game!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="290" y="120" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XAGFkQ6AK7H2ISQv4rUd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XAGFkQ6AK7H2ISQv4rUd-2" target="XAGFkQ6AK7H2ISQv4rUd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAGFkQ6AK7H2ISQv4rUd-2" value="Red Team Name: String&lt;br&gt;Blue Team Name: String&lt;br&gt;Red Team Score: Integer&lt;br&gt;Blue Team Score: Integer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="280" y="260" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XAGFkQ6AK7H2ISQv4rUd-3" value="setRedTeamName(name: String): void&lt;br&gt;getRedTeamName(): String&lt;br&gt;setBlueTeamName(name: String): void&lt;br&gt;getBlueTeamName(): String&lt;br&gt;setRedTeamScore(score: Int): void&lt;br&gt;getRedTeamScore(): int&lt;br&gt;setBlueTeamScore(Name: String): void&lt;br&gt;getBlueTeamScore(): int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="260" y="380" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XAGFkQ6AK7H2ISQv4rUd-4" value="Set class" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="380" y="100" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XAGFkQ6AK7H2ISQv4rUd-5" value="Set class variables" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="355" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XAGFkQ6AK7H2ISQv4rUd-6" value="Create attributes to get and set values for each variable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="265" y="360" width="320" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

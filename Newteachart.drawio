@@ -1,9 +1,152 @@
-<mxfile host="app.diagrams.net" modified="2023-04-08T17:27:20.310Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Config/96.2.8981.82" version="21.1.4" etag="gtoiLuEKyyROooi_zR4x" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-08T18:19:03.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Config/96.2.8981.82" etag="Q87BSRHBOg3DlazqSjYn" version="21.1.4" type="github">
   <diagram name="Page-1" id="4DlaLct0QE8cwM5zOf2Q">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fAprmChVQwTHgOSSy4RH-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="fAprmChVQwTHgOSSy4RH-1" target="fAprmChVQwTHgOSSy4RH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-1" value="START" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-2" value="&lt;p style=&quot;line-height:200%&quot; class=&quot;MsoNormal&quot;&gt;INPUT tea_type,&lt;br/&gt;number_of_cups, steeping_time&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="fAprmChVQwTHgOSSy4RH-3" target="fAprmChVQwTHgOSSy4RH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-3" value="CALCULATE amount_of_water based on number_of_cups" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-4" value="BOIL Water" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="350" y="290" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="fAprmChVQwTHgOSSy4RH-5" target="fAprmChVQwTHgOSSy4RH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-5" value="GATHER materials (tea_bags, teacups, teapot)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="315" y="350" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.453;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="fAprmChVQwTHgOSSy4RH-6" target="fAprmChVQwTHgOSSy4RH-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="fAprmChVQwTHgOSSy4RH-6" target="fAprmChVQwTHgOSSy4RH-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="470" />
+              <mxPoint x="560" y="740" />
+              <mxPoint x="515" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-6" value="IF using_teapot" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="360" y="420" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="fAprmChVQwTHgOSSy4RH-7" target="fAprmChVQwTHgOSSy4RH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-7" value="RINSE teapot with hot_water" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="180" y="510" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-8" value="ADD tea_bags to teapot or cups" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="180" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="fAprmChVQwTHgOSSy4RH-9" target="fAprmChVQwTHgOSSy4RH-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="242.5" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="740" />
+              <mxPoint x="335" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-9" value="POUR hot_water over tea_bags into teapot or cups" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="155" y="650" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="fAprmChVQwTHgOSSy4RH-10" target="fAprmChVQwTHgOSSy4RH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-10" value="WAIT for steeping_time" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="335" y="710" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-11" value="REMOVE tea_bags and DISCARD" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="780" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="fAprmChVQwTHgOSSy4RH-12" target="fAprmChVQwTHgOSSy4RH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="fAprmChVQwTHgOSSy4RH-12" target="fAprmChVQwTHgOSSy4RH-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="925" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="925" />
+              <mxPoint x="530" y="1045" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-12" value="IF using-teapot" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="335" y="880" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="fAprmChVQwTHgOSSy4RH-13" target="fAprmChVQwTHgOSSy4RH-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-13" value="POUR tea into teacups" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="160" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="fAprmChVQwTHgOSSy4RH-14" target="fAprmChVQwTHgOSSy4RH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-14" value="ADD extra_flavor (milk, sugar, honey)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="fAprmChVQwTHgOSSy4RH-15" target="fAprmChVQwTHgOSSy4RH-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-15" value="ENJOY tea" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="fAprmChVQwTHgOSSy4RH-16" target="fAprmChVQwTHgOSSy4RH-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="1120" />
+              <mxPoint x="660" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-16" value="IF more_cups desired" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#788AA3;fontColor=default;" edge="1" parent="1" source="fAprmChVQwTHgOSSy4RH-17" target="fAprmChVQwTHgOSSy4RH-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-17" value="CLEAN_UP (teapot, teacups)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-18" value="FINISH" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-25" value="TRUE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="230" y="445" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-26" value="FALSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="520" y="445" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-34" value="TRUE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="280" y="895" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-35" value="FALSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="525" y="970" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-42" value="TRUE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="660" y="715" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fAprmChVQwTHgOSSy4RH-43" value="FALSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1155" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
